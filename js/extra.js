@@ -1,0 +1,2 @@
+document.querySelector("body > div.wy-grid-for-nav > nav > div.wy-side-nav-search > a").classList.remove('icon-home');
+document.querySelector("body > div.wy-grid-for-nav > nav > div.wy-side-nav-search > a").classList.add('icon-book');
