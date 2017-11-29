@@ -16,11 +16,15 @@
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../css/highlight.css">
   <link href="../css/extra.css" rel="stylesheet">
+  <link href="../css/connectors.css" rel="stylesheet">
+  <link href="../css/perfect-scrollbar.css" rel="stylesheet">
+  <link href="../css/extra.css" rel="stylesheet">
+  <link href="../css/treant.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "2016 Launch";
-    var mkdocs_page_input_path = "launch_2016.md";
+    var mkdocs_page_input_path = "launch_2016\\index.md";
     var mkdocs_page_url = "/launch_2016/";
   </script>
   
@@ -37,7 +41,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../overall/" class="icon icon-home"> Backup Documentation</a>
+        <a href=".." class="icon icon-home"> Backup Documentation</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -55,7 +59,7 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../overall/">General Info & Structure</a>
+    <a class="" href="..">General Info & Structure</a>
                 </li>
     </ul>
 	    </li>
@@ -73,19 +77,17 @@
     <a class="current" href="./">2016 Launch</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</a></li>
+    <li class="toctree-l3"><a href="#2016-launch"> 2016 Launch</a></li>
     
-
-    <li class="toctree-l3"><a href="#what-is-mkdocs">What is MkDocs+?</a></li>
-    
-
-    <li class="toctree-l3"><a href="#how-to-use-this-site">How to use this site?</a></li>
-    
-
-    <li class="toctree-l3"><a href="#code">Code</a></li>
-    
-
-    <li class="toctree-l3"><a href="#credits">Credits</a></li>
+        <ul>
+        
+            <li><a class="toctree-l4" href="#database"> Database</a></li>
+        
+            <li><a class="toctree-l4" href="#htdocs"> Htdocs</a></li>
+        
+            <li><a class="toctree-l4" href="#freeswitch"> FreeSWITCH</a></li>
+        
+        </ul>
     
 
     </ul>
@@ -95,41 +97,6 @@
     <a class="" href="../launch_2015/">2015 Launch</a>
                 </li>
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../js-sequence-diagrams/">js-sequence-diagrams</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../datatables/">DataTables</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../mermaid/">mermaid</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../chartistjs/">Chartist.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../chartjs/">Chart.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../fontawesome/">Font Awesome</a>
 	    </li>
           
         </ul>
@@ -142,7 +109,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../overall/">Backup Documentation</a>
+        <a href="..">Backup Documentation</a>
       </nav>
 
       
@@ -150,7 +117,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../overall/">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     
       
         
@@ -168,16 +135,153 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</h1>
-<p>For information about MkDocs itself or to view the official MkDocs documentation please visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h1 id="what-is-mkdocs">What is MkDocs+?</h1>
-<p>Well, it's MkDocs + Something.  If that's not clear, MkDocs+ provides examples of integrating 3rd Party JavaScript libraries with MkDocs. This project started out initially as just a playground where I could test the use of a few javascript libaries and at some point I thought maybe it would be helpful to throw it out on the internet so other people could also see the examples.  There's really nothing super special about this project and most libraries are implemented following their documentation.  However, I hope the examples provided are useful to others somehow.</p>
-<h1 id="how-to-use-this-site">How to use this site?</h1>
-<p>Please click on any library name from the menu bar to view examples and in some cases usage information and/or documentation on any special tweaks that were needed.</p>
-<h1 id="code">Code</h1>
-<p>The MkDocs+ Project code is on Github.  You can easily clone a copy and play with the included examples to see exactly how they work.  Each example is held entirely in it's own sub-folder and does not rely on any dependancies outside of that folder with ONE exception.  Both the readthedocs and default MkDocs themes already include jQuery and because of that I am not including it a second time for the examples that require it.</p>
-<h1 id="credits">Credits</h1>
-<p>Finally, I want to thank the entire MkDocs team for creating MkDocs and give special thanks to d0ugal and waylan for the exceptional support they have provided.</p>
+                <p><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/Treant.css">
+<link rel="stylesheet" href="../css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../css/connectors.css"></p>
+<h1 id="2016-launch"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BSXJHOFM3WlFnSzQ"> 2016 Launch</a></h1>
+<p style="line-height: 27px;">This directory contains data of 2016 launch in three sub-folders, <strong>Database</strong>, <strong>Htdocs</strong> and <strong>FreeSWITCH</strong>.</br>
+Applications Deployed in this launch: <strong>Baang</strong>, <strong>Sawaal</strong>, and <strong>Polly</strong>.</br>
+Telephony Server-Used: <strong>FreeSwitch</strong>.</p>
+
+<hr />
+
+<h3 id="database"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BUmhBM2k4WXNMbTg"><i class="fa fa-folder-open"></i> Database</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Databases of Polly2016, Sawaal2016, and Baang2016 in sql files are contained in this (Database) directory.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Description of Sql Files:</p>
+<p style="line-height: 15px;"></br></p>
+
+<table>
+<thead>
+<tr>
+<th>File &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9Bd1JVbGh1SGIxTEU"><i class="fa fa-align-justify"></i> baang-2016-02-25.sql</a></td>
+<td>Database of Baang, contain tables such as <em>userplayrectable</em> , <em>uservotesofrec</em> ,  <em>recording table</em> , <em>feedback table</em> ,  ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BbXFjWmNzb21ZSDg"><i class="fa fa-align-justify"></i> pquiz-2016-02-25.sql</a></td>
+<td>Data of Sawaal, tables such as <em>facts</em> , <em>questions</em> , <em>user answers</em> ,  <em>user likes</em>  ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BOU93YllnSTdYMm8"><i class="fa fa-align-justify"></i> pollywa-2016-02-25.sql</a></td>
+<td>Data of Polly, tables such as <em>call table</em> , <em>request table</em> , <em>user table</em> , ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BS010OWxqR3hZSUk"><i class="fa fa-align-justify"></i> pollywasys-2016-02-25.sql</a></td>
+<td>Phone-number to encoded-key mapping data, <em>phkey table</em> , of users in deployed applications, Sawaal, Baang and Polly in 2016 launch.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>The <kbd>'2016-02-25'</kbd> sub-string in names of sql files represents the date <code>2016-02-25</code> on which the application launch is cluminated.  </p>
+</blockquote>
+<p style="line-height: 10px;"></br></p>
+
+<h3 id="htdocs"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BZWZMQUJYWU5nSWc"><i class="fa fa-folder-open"></i> Htdocs</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Web root of HTTP server.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Description of important Folders, it contains:</p>
+<p style="line-height: 5px;"></br></p>
+
+<table>
+<thead>
+<tr>
+<th>Folder &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BN0lzMkF5QTN0TEk"><i class="fa fa-folder"></i> Baang</a></td>
+<td>Baang code scripts and recording data.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BN0UyZlU4dlVONlk"><i class="fa fa-folder"></i> BaangMonitor</a></td>
+<td>Baang monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BSFRkT01QQ3FsYk0"><i class="fa fa-folder"></i> FS</a></td>
+<td>Master code scripts, <a href="https://drive.google.com/open?id=0B2rhATWIcB9BSUdwbDh6eklxa2s"><i  class="fa fa-code"></i>APollyLHR.php</a>, controls user's interaction in calls for deployed applications. It controls calls through Native communication with FreeSWITCH, over the event socket interface.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BVnZWWWs3c3QzMXM"><i class="fa fa-folder"></i> PollyMonitorWA</a></td>
+<td>Polly monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BbklsQTJSU0doaVE"><i class="fa fa-folder"></i> PQuiz</a></td>
+<td>Sawaal code scripts and recording data.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BSnREMlJmTTNhRWM"><i class="fa fa-folder"></i> PQuizMonitor</a></td>
+<td>Sawaal monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BbUItVUYweGVvbDg"><i class="fa fa-folder"></i> wa</a></td>
+<td>Audio-editing Praat scripts , Call-logs of all deployed applications <a href="https://drive.google.com/open?id=0B2rhATWIcB9BNGF0NXVRd3Z3ZEE"><i class="fa fa-th-list"></i> Qlogs.rar</a>  , and Polly code scripts and recording data.</td>
+</tr>
+</tbody>
+</table>
+<p style="line-height: 10px;"></br></p>
+
+<h3 id="freeswitch"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BOXN4MTREdGpPSEk"><i class="fa fa-folder-open"></i> FreeSWITCH</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Telephony server Root Directory.<br />
+It contains three sub-folder namely <strong>conf</strong>, <strong>scripts</strong> and <strong>logs</strong>. </p>
+<p style="line-height: 10px;"></br></p>
+
+<h4 id="conf"><a href="https://drive.google.com/open?id=0B2rhATWIcB9Bby10SVJDVWZhVmc"><i class="fa fa-folder-open"></i> conf</a></h4>
+<p style="line-height: 5px;"></br></p>
+
+<p>Configuration Files of FreeSWITCH.<br />
+Important config file/folders are: <strong>vars.xml</strong> , <strong>autoload_configs</strong> , <strong>dialplan</strong> and <strong>sip_profiles</strong>.<br />
+Configuration files are same as is defined in 2017 Launch/FreeSwitch/conf/.<br />
+Only <strong>dialplan\public.xml</strong> is different with added extensions defined, for Rahemma Application.  </p>
+<p style="line-height: 10px;"></br></p>
+
+<h4 id="scripts"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BY3IwZUpycU5oVUE"><i class="fa fa-folder-open"></i> scripts</a></h4>
+<p style="line-height: 5px;"></br></p>
+
+<p>Scripts are same as is defined in 2017 Launch/FreeSwitch/scripts/.<br />
+The difference is that in 2016 only [<i  class="fa fa-code"></i>call.lua(https://drive.google.com/open?id=0B2rhATWIcB9BZ3BJMTQyaGV5dmc) script is used to make outbound calls for all applications while in 2017 sperate calling script for each applicaiton was defined.  </p>
+<p>Hence, it does not contain call_baang, call_pquiz and call_rem. </p>
+<p style="line-height: 10px;"></br></p>
+
+<h4 id="logs"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BS1FMYlA2Ynd2cWM"><i class="fa fa-folder-open"></i> logs</a></h4>
+<p style="line-height: 5px;"></br></p>
+
+<p>cdr_logs.csv having Call Data Records (CDR) logs of calls like calls times and durations.</p>
+<p style="line-height: 5px;"></br></p>
+
+<p><br/>
+<hr></p>
+<script src="../js/raphael.js"></script>
+
+<script src="../js/Treant.js"></script>
+
+<script src="../js/perfect-scrollbar.js"></script>
+
+<script src="../js/jquery.min.js"></script>
+
+<script src="../js/jquery.easing.js"></script>
+
+<script src="../js/connectors.js"></script>
+
+<script>
+        tree = new Treant( chart_config );
+</script>
               
             </div>
           </div>
@@ -224,6 +328,12 @@
     <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
       <script src="../js/extra.js"></script>
+      <script src="../js/connectors.js"></script>
+      <script src="../js/jquery.easing.js"></script>
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/perfect-scrollbar.js"></script>
+      <script src="../js/raphael.js"></script>
+      <script src="../js/treant.js"></script>
       <script src="../search/require.js"></script>
       <script src="../search/search.js"></script>
 

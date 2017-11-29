@@ -1,8 +1,7 @@
 var chart_config = {
 	chart: {
 		container: "#OrganiseChart-big-commpany",
-		levelSeparation:    70,
-        siblingSeparation:  60,
+
         nodeAlign: "CENTRE",
 		animateOnInit: true,
 
@@ -29,13 +28,13 @@ var chart_config = {
 		},
 		children: [
 			{
-				innerHTML: "#first-launch"
+				innerHTML: "#third-launch",
 			},
 			{
 				innerHTML: "#second-launch"
 			},
 			{
-				innerHTML: "#third-launch"
+				innerHTML: "#first-launch"
 			}
 		]
 	}

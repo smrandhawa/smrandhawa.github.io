@@ -7,3 +7,17 @@
 .wy-nav-content {
     max-width: 900px;
 }
+
+.rst-content .notes {
+	margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.rst-content .notes ul{
+    line-height: 28px;
+	margin-bottom: 0px;
+}
+
+footer {
+	display: none;
+}

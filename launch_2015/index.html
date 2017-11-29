@@ -16,11 +16,15 @@
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../css/highlight.css">
   <link href="../css/extra.css" rel="stylesheet">
+  <link href="../css/connectors.css" rel="stylesheet">
+  <link href="../css/perfect-scrollbar.css" rel="stylesheet">
+  <link href="../css/extra.css" rel="stylesheet">
+  <link href="../css/treant.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "2015 Launch";
-    var mkdocs_page_input_path = "launch_2015.md";
+    var mkdocs_page_input_path = "launch_2015\\index.md";
     var mkdocs_page_url = "/launch_2015/";
   </script>
   
@@ -37,7 +41,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../overall/" class="icon icon-home"> Backup Documentation</a>
+        <a href=".." class="icon icon-home"> Backup Documentation</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -55,7 +59,7 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../overall/">General Info & Structure</a>
+    <a class="" href="..">General Info & Structure</a>
                 </li>
     </ul>
 	    </li>
@@ -77,59 +81,22 @@
     <a class="current" href="./">2015 Launch</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</a></li>
+    <li class="toctree-l3"><a href="#2015-launch"> 2015 Launch</a></li>
     
-
-    <li class="toctree-l3"><a href="#what-is-mkdocs">What is MkDocs+?</a></li>
-    
-
-    <li class="toctree-l3"><a href="#how-to-use-this-site">How to use this site?</a></li>
-    
-
-    <li class="toctree-l3"><a href="#code">Code</a></li>
-    
-
-    <li class="toctree-l3"><a href="#credits">Credits</a></li>
+        <ul>
+        
+            <li><a class="toctree-l4" href="#database"> Database</a></li>
+        
+            <li><a class="toctree-l4" href="#htdocs"> Htdocs</a></li>
+        
+            <li><a class="toctree-l4" href="#prism"> Prism</a></li>
+        
+        </ul>
     
 
     </ul>
                 </li>
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../js-sequence-diagrams/">js-sequence-diagrams</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../datatables/">DataTables</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../mermaid/">mermaid</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../chartistjs/">Chartist.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../chartjs/">Chart.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../fontawesome/">Font Awesome</a>
 	    </li>
           
         </ul>
@@ -142,7 +109,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../overall/">Backup Documentation</a>
+        <a href="..">Backup Documentation</a>
       </nav>
 
       
@@ -150,7 +117,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../overall/">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     
       
         
@@ -168,24 +135,116 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</h1>
-<p>For information about MkDocs itself or to view the official MkDocs documentation please visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h1 id="what-is-mkdocs">What is MkDocs+?</h1>
-<p>Well, it's MkDocs + Something.  If that's not clear, MkDocs+ provides examples of integrating 3rd Party JavaScript libraries with MkDocs. This project started out initially as just a playground where I could test the use of a few javascript libaries and at some point I thought maybe it would be helpful to throw it out on the internet so other people could also see the examples.  There's really nothing super special about this project and most libraries are implemented following their documentation.  However, I hope the examples provided are useful to others somehow.</p>
-<h1 id="how-to-use-this-site">How to use this site?</h1>
-<p>Please click on any library name from the menu bar to view examples and in some cases usage information and/or documentation on any special tweaks that were needed.</p>
-<h1 id="code">Code</h1>
-<p>The MkDocs+ Project code is on Github.  You can easily clone a copy and play with the included examples to see exactly how they work.  Each example is held entirely in it's own sub-folder and does not rely on any dependancies outside of that folder with ONE exception.  Both the readthedocs and default MkDocs themes already include jQuery and because of that I am not including it a second time for the examples that require it.</p>
-<h1 id="credits">Credits</h1>
-<p>Finally, I want to thank the entire MkDocs team for creating MkDocs and give special thanks to d0ugal and waylan for the exceptional support they have provided.</p>
+                <p><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/Treant.css">
+<link rel="stylesheet" href="../css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../css/connectors.css"></p>
+<h1 id="2015-launch"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BeGx5bEFJLWh2Q3c"> 2015 Launch</a></h1>
+<p style="line-height: 27px;">This directory contains data of 2015 launch in three sub-folders, <strong>Database</strong>, <strong>Htdocs</strong> and <strong>Prism</strong>.</br>
+Applications Deployed in this launch: <strong>Baang</strong>, and <strong>Polly</strong>.</br>
+Telephony Server-Used: <strong>Voxio Prism</strong>.</p>
+
+<hr />
+
+<h3 id="database"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BSHoydW9HSTFhSWc"><i class="fa fa-folder-open"></i> Database</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Databases of Polly2015, and Baang2015 in sql files are contained in this (Database) directory.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Description of Sql Files:</p>
+<p style="line-height: 15px;"></br></p>
+
+<table>
+<thead>
+<tr>
+<th>File &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BTkFRRDFiMEdGWlU"><i class="fa fa-align-justify"></i> baang-2015-12-12.sql</a></td>
+<td>Database of Baang, contain tables such as <em>userplayrectable</em> , <em>uservotesofrec</em> ,  <em>recording table</em> , <em>feedback table</em> ,  ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BcXZvZ0MzZHE5Vm8"><i class="fa fa-align-justify"></i> pollywa-2015-12-12.sql</a></td>
+<td>Data of Polly, tables such as <em>call table</em> , <em>request table</em> , <em>user table</em> , ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BOU9qSGRXYmoycWc"><i class="fa fa-align-justify"></i> pollywasys-2015-12-12.sql</a></td>
+<td>Phone-number to encoded-key mapping data, <em>phkey table</em> , of users in deployed applications, Baang and Polly in 2015 launch.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>The <kbd>'2015-12-12'</kbd> sub-string in names of sql files represents the date <code>2015-12-12</code> on which the application launch is cluminated.  </p>
+</blockquote>
+<p style="line-height: 10px;"></br></p>
+
+<h3 id="htdocs"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BOXJxR0QyS2I3VFU"><i class="fa fa-folder-open"></i> Htdocs</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Web root of HTTP server.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Description of important Folders, it contains:</p>
+<p style="line-height: 5px;"></br></p>
+
+<table>
+<thead>
+<tr>
+<th>Folder &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BdFBsTHFDeE9TS3c"><i class="fa fa-folder"></i> Baang</a></td>
+<td>Baang code scripts and recording data.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BZmdhMUs3bDdQTUU"><i class="fa fa-folder"></i> PollyMonitorWA</a></td>
+<td>Polly monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1mvk1pgn921jYgBCsld_RfElPnEovxdCX"><i class="fa fa-folder"></i> wa</a></td>
+<td>Audio-editing Praat scripts, all deployed applications Call-logs Qlogs, and Polly scripts and recording data.</td>
+</tr>
+</tbody>
+</table>
+<p style="line-height: 10px;"></br></p>
+
+<h3 id="prism"><a href="https://drive.google.com/open?id=0B2rhATWIcB9Ba0dXNGxvOF9Gcm8"><i class="fa fa-folder-open"></i> Prism</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Telephony server for VOIP. 
+This directory is the complete backup of the deployed prism of that launch.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p><br/>
+<hr></p>
+<script src="../js/raphael.js"></script>
+
+<script src="../js/Treant.js"></script>
+
+<script src="../js/perfect-scrollbar.js"></script>
+
+<script src="../js/jquery.min.js"></script>
+
+<script src="../js/jquery.easing.js"></script>
+
+<script src="../js/connectors.js"></script>
+
+<script>
+        tree = new Treant( chart_config );
+</script>
               
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href=".." class="btn btn-neutral float-right" title="Home">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../launch_2016/" class="btn btn-neutral" title="2016 Launch"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -217,13 +276,17 @@
         <span><a href="../launch_2016/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href=".." style="color: #fcfcfc">Next &raquo;</a></span>
-      
     </span>
 </div>
     <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
       <script src="../js/extra.js"></script>
+      <script src="../js/connectors.js"></script>
+      <script src="../js/jquery.easing.js"></script>
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/perfect-scrollbar.js"></script>
+      <script src="../js/raphael.js"></script>
+      <script src="../js/treant.js"></script>
       <script src="../search/require.js"></script>
       <script src="../search/search.js"></script>
 

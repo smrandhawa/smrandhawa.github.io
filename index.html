@@ -9,17 +9,21 @@
   <meta name="author" content="Shan Randhawa">
   <link rel="shortcut icon" href="./favicon.ico">
   
-  <title>Home - Backup Documentation</title>
+  <title>General Info & Structure - Backup Documentation</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="./css/theme.css" type="text/css" />
   <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="./css/highlight.css">
   <link href="./css/extra.css" rel="stylesheet">
+  <link href="./css/connectors.css" rel="stylesheet">
+  <link href="./css/perfect-scrollbar.css" rel="stylesheet">
+  <link href="./css/extra.css" rel="stylesheet">
+  <link href="./css/treant.css" rel="stylesheet">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Home";
+    var mkdocs_page_name = "General Info & Structure";
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = "/";
   </script>
@@ -37,7 +41,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="overall/" class="icon icon-home"> Backup Documentation</a>
+        <a href="." class="icon icon-home"> Backup Documentation</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -53,9 +57,21 @@
 		
     <span class="caption-text">Overview</span>
     <ul class="subnav">
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="overall/">General Info & Structure</a>
+    <a class="current" href=".">General Info & Structure</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#information-regarding-backup">Information regarding Backup</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#backup-directory-structure"> Backup Directory Structure</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -79,59 +95,6 @@
     </ul>
 	    </li>
           
-            <li class="toctree-l1 current">
-		
-    <a class="current" href=".">Home</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</a></li>
-    
-
-    <li class="toctree-l2"><a href="#what-is-mkdocs">What is MkDocs+?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#how-to-use-this-site">How to use this site?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#code">Code</a></li>
-    
-
-    <li class="toctree-l2"><a href="#credits">Credits</a></li>
-    
-
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="js-sequence-diagrams/">js-sequence-diagrams</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="datatables/">DataTables</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="mermaid/">mermaid</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="chartistjs/">Chartist.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="chartjs/">Chart.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="fontawesome/">Font Awesome</a>
-	    </li>
-          
         </ul>
       </div>
       &nbsp;
@@ -142,7 +105,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="overall/">Backup Documentation</a>
+        <a href=".">Backup Documentation</a>
       </nav>
 
       
@@ -150,11 +113,15 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="overall/">Docs</a> &raquo;</li>
+    <li><a href=".">Docs</a> &raquo;</li>
     
       
+        
+          <li>Overview &raquo;</li>
+        
+      
     
-    <li>Home</li>
+    <li>General Info & Structure</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -164,16 +131,101 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</h1>
-<p>For information about MkDocs itself or to view the official MkDocs documentation please visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h1 id="what-is-mkdocs">What is MkDocs+?</h1>
-<p>Well, it's MkDocs + Something.  If that's not clear, MkDocs+ provides examples of integrating 3rd Party JavaScript libraries with MkDocs. This project started out initially as just a playground where I could test the use of a few javascript libaries and at some point I thought maybe it would be helpful to throw it out on the internet so other people could also see the examples.  There's really nothing super special about this project and most libraries are implemented following their documentation.  However, I hope the examples provided are useful to others somehow.</p>
-<h1 id="how-to-use-this-site">How to use this site?</h1>
-<p>Please click on any library name from the menu bar to view examples and in some cases usage information and/or documentation on any special tweaks that were needed.</p>
-<h1 id="code">Code</h1>
-<p>The MkDocs+ Project code is on Github.  You can easily clone a copy and play with the included examples to see exactly how they work.  Each example is held entirely in it's own sub-folder and does not rely on any dependancies outside of that folder with ONE exception.  Both the readthedocs and default MkDocs themes already include jQuery and because of that I am not including it a second time for the examples that require it.</p>
-<h1 id="credits">Credits</h1>
-<p>Finally, I want to thank the entire MkDocs team for creating MkDocs and give special thanks to d0ugal and waylan for the exceptional support they have provided.</p>
+                <p><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/Treant.css">
+<link rel="stylesheet" href="css/perfect-scrollbar.css">
+<link rel="stylesheet" href="css/connectors.css"></p>
+<h1 id="information-regarding-backup">Information regarding Backup</h1>
+<p style="line-height: 8px;"></br></p>
+
+<p style="line-height: 27px;">Backup contains data of all telephony applications (<strong>Baang</strong>, <strong>Sawaal</strong>, <strong>Polly</strong>, and <strong>Rahemma</strong>) that were deployed, using Wateen server, in three launches of <em>2015</em>, <em>2016</em> and <em>2017</em>.</p>
+
+<p style="line-height: 27px;"></br></p>
+
+<h2 id="backup-directory-structure"><i class="fa fa-sitemap"></i> Backup Directory Structure</h2>
+<p style="line-height: 8px;"></br></p>
+
+<p style="line-height: 27px;">The backup data is in three parts, pertaining to different launches, sub-directories marked by launch year. Data means <strong>Database</strong>, <strong>htdocs</strong>, and <strong>telephony server-side scripts and configuration files </strong>of the particular launch.</p>
+
+<p style="line-height: 5px;"></br></p>
+
+<div  style="display:none">
+    <div id="first-post" class="comment">
+        <a href="https://drive.google.com/open?id=13YVXY7q8tDLGNDvPASUAK3U94wJo3pI6"><img alt="Directory" src="img/root_folder.png"></a>
+            <p>
+                <a href="https://drive.google.com/open?id=13YVXY7q8tDLGNDvPASUAK3U94wJo3pI6"><span class="user">Backup_Polly_Baang_Sawaal_2015_2016_2017</span></a> &mdash;
+                <span class="line-truncate">
+                    root directory of backup.
+                </span>
+            </p>
+    </div>
+<div id="first-launch" class="comment" style="width: 218px;">
+        <a href="https://drive.google.com/open?id=0B2rhATWIcB9BeGx5bEFJLWh2Q3c"><img alt="Directory" src="img/folder_1.png"></a>
+            <p>
+                <a href="https://drive.google.com/open?id=0B2rhATWIcB9BeGx5bEFJLWh2Q3c"><span class="user">2015 Launch  </span></a> </br>&mdash;
+                <span class="line-truncate">
+                    data of First Launch.
+                </span>
+            </p>
+    </div>
+
+<div id="second-launch" class="comment" style="width: 227px;">
+        <a href="https://drive.google.com/open?id=0B2rhATWIcB9BSXJHOFM3WlFnSzQ"><img alt="Directory" src="img/folder_2.png"></a>
+            <p>
+                <a href="https://drive.google.com/open?id=0B2rhATWIcB9BSXJHOFM3WlFnSzQ"><span class="user">2016 Launch  </span></a> </br>&mdash;
+                <span class="line-truncate">
+                    data of Second Launch.
+                </span>
+            </p>
+    </div>
+
+<div id="third-launch" class="comment" style="width: 227px;">
+        <a href="https://drive.google.com/open?id=0B2rhATWIcB9BVlU0ZWF2SmFuN0k"><img alt="Directory" src="img/folder_3.png"></a>
+            <p>
+                <a href="https://drive.google.com/open?id=0B2rhATWIcB9BVlU0ZWF2SmFuN0k"><span class="user">2017 Launch  </span></a> </br>&mdash;
+                <span class="line-truncate">
+                    data of Third Launch.
+                </span>
+            </p>
+    </div>
+
+
+<div id="first-apps" class="ends">
+            <center style="margin-top: 5px; font-size: 16px; font-weight: 550;">Applications Deployed</center>
+    </div>
+
+</div>
+
+<div class="chart" id="OrganiseChart-big-commpany"></div>
+
+<blockquote class='notes'>
+  <p><strong>Note :- Applications Deployed </strong></p>
+  <p style="line-height: 13px;"></br></p>
+  <ul style="line-height: 34px;">
+  <li><strong>Polly</strong>, and <strong>Baang</strong> were deployed in all three launches ( <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2015 </span>, <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2016 </span> and <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2017 </span>).</li>
+  <li><strong>Sawaal</strong> was deployed in launches of <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2016 </span> and <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2017 </span>.</li>
+  <li><strong>Surveys</strong> and <strong>Rahemma</strong> were deployed in <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2017</span> only.</li>
+  <li><strong>HelloRozgar</strong> was deployed in <span style="font-style: italic; font-size: 16px; font-weight: bold;"> 2015</span>, but unlike other applications it was not stopped/monitored after that, it continued to run passively uptill now.</li>
+  </ul>
+</blockquote>
+
+<hr>
+
+<script src="js/raphael.js"></script>
+
+<script src="js/Treant.js"></script>
+
+<script src="js/perfect-scrollbar.js"></script>
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/jquery.easing.js"></script>
+
+<script src="js/connectors.js"></script>
+
+<script>
+        tree = new Treant( chart_config );
+</script>
               
             </div>
           </div>
@@ -181,10 +233,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="js-sequence-diagrams/" class="btn btn-neutral float-right" title="js-sequence-diagrams">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="launch_2017/" class="btn btn-neutral float-right" title="2017 Launch">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="launch_2015/" class="btn btn-neutral" title="2015 Launch"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -210,16 +260,20 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="launch_2015/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="js-sequence-diagrams/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="launch_2017/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
     <script>var base_url = '.';</script>
     <script src="./js/theme.js"></script>
       <script src="./js/extra.js"></script>
+      <script src="./js/connectors.js"></script>
+      <script src="./js/jquery.easing.js"></script>
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/perfect-scrollbar.js"></script>
+      <script src="./js/raphael.js"></script>
+      <script src="./js/treant.js"></script>
       <script src="./search/require.js"></script>
       <script src="./search/search.js"></script>
 
@@ -228,5 +282,5 @@
 
 <!--
 MkDocs version : 0.17.0
-Build Date UTC : 2017-10-28 14:04:52
+Build Date UTC : 2017-11-29 09:02:08
 -->

@@ -4,8 +4,8 @@
     
         
     <url>
-     <loc>/overall/</loc>
-     <lastmod>2017-10-28</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-11-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -15,78 +15,22 @@
         
     <url>
      <loc>/launch_2017/</loc>
-     <lastmod>2017-10-28</lastmod>
+     <lastmod>2017-11-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/launch_2016/</loc>
-     <lastmod>2017-10-28</lastmod>
+     <lastmod>2017-11-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/launch_2015/</loc>
-     <lastmod>2017-10-28</lastmod>
+     <lastmod>2017-11-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
-    
-
-    
-    <url>
-     <loc>/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/js-sequence-diagrams/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/datatables/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/mermaid/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/chartistjs/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/chartjs/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/fontawesome/</loc>
-     <lastmod>2017-10-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
     
 
 </urlset>

@@ -16,11 +16,15 @@
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../css/highlight.css">
   <link href="../css/extra.css" rel="stylesheet">
+  <link href="../css/connectors.css" rel="stylesheet">
+  <link href="../css/perfect-scrollbar.css" rel="stylesheet">
+  <link href="../css/extra.css" rel="stylesheet">
+  <link href="../css/treant.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "2017 Launch";
-    var mkdocs_page_input_path = "launch_2017.md";
+    var mkdocs_page_input_path = "launch_2017\\index.md";
     var mkdocs_page_url = "/launch_2017/";
   </script>
   
@@ -37,7 +41,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../overall/" class="icon icon-home"> Backup Documentation</a>
+        <a href=".." class="icon icon-home"> Backup Documentation</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -55,7 +59,7 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../overall/">General Info & Structure</a>
+    <a class="" href="..">General Info & Structure</a>
                 </li>
     </ul>
 	    </li>
@@ -69,19 +73,17 @@
     <a class="current" href="./">2017 Launch</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</a></li>
+    <li class="toctree-l3"><a href="#2017-launch"> 2017 Launch</a></li>
     
-
-    <li class="toctree-l3"><a href="#what-is-mkdocs">What is MkDocs+?</a></li>
-    
-
-    <li class="toctree-l3"><a href="#how-to-use-this-site">How to use this site?</a></li>
-    
-
-    <li class="toctree-l3"><a href="#code">Code</a></li>
-    
-
-    <li class="toctree-l3"><a href="#credits">Credits</a></li>
+        <ul>
+        
+            <li><a class="toctree-l4" href="#database"> Database</a></li>
+        
+            <li><a class="toctree-l4" href="#htdocs"> Htdocs</a></li>
+        
+            <li><a class="toctree-l4" href="#freeswitch"> FreeSWITCH</a></li>
+        
+        </ul>
     
 
     </ul>
@@ -97,41 +99,6 @@
     </ul>
 	    </li>
           
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../js-sequence-diagrams/">js-sequence-diagrams</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../datatables/">DataTables</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../mermaid/">mermaid</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../chartistjs/">Chartist.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../chartjs/">Chart.js</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../fontawesome/">Font Awesome</a>
-	    </li>
-          
         </ul>
       </div>
       &nbsp;
@@ -142,7 +109,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../overall/">Backup Documentation</a>
+        <a href="..">Backup Documentation</a>
       </nav>
 
       
@@ -150,7 +117,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../overall/">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     
       
         
@@ -168,16 +135,279 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-the-mkdocs-project">Welcome to the MkDocs+ Project</h1>
-<p>For information about MkDocs itself or to view the official MkDocs documentation please visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h1 id="what-is-mkdocs">What is MkDocs+?</h1>
-<p>Well, it's MkDocs + Something.  If that's not clear, MkDocs+ provides examples of integrating 3rd Party JavaScript libraries with MkDocs. This project started out initially as just a playground where I could test the use of a few javascript libaries and at some point I thought maybe it would be helpful to throw it out on the internet so other people could also see the examples.  There's really nothing super special about this project and most libraries are implemented following their documentation.  However, I hope the examples provided are useful to others somehow.</p>
-<h1 id="how-to-use-this-site">How to use this site?</h1>
-<p>Please click on any library name from the menu bar to view examples and in some cases usage information and/or documentation on any special tweaks that were needed.</p>
-<h1 id="code">Code</h1>
-<p>The MkDocs+ Project code is on Github.  You can easily clone a copy and play with the included examples to see exactly how they work.  Each example is held entirely in it's own sub-folder and does not rely on any dependancies outside of that folder with ONE exception.  Both the readthedocs and default MkDocs themes already include jQuery and because of that I am not including it a second time for the examples that require it.</p>
-<h1 id="credits">Credits</h1>
-<p>Finally, I want to thank the entire MkDocs team for creating MkDocs and give special thanks to d0ugal and waylan for the exceptional support they have provided.</p>
+                <p><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/Treant.css">
+<link rel="stylesheet" href="../css/perfect-scrollbar.css">
+<link rel="stylesheet" href="../css/connectors.css"></p>
+<h1 id="2017-launch"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BVlU0ZWF2SmFuN0k"> 2017 Launch</a></h1>
+<p style="line-height: 27px;">This directory contains data of 2017 launch in three sub-folders, <strong>Database</strong>, <strong>Htdocs</strong> and <strong>FreeSWITCH</strong>.</br>
+Applications Deployed in this launch: <strong>Baang</strong>, <strong>Sawaal</strong>, <strong>Rahemma</strong> and <strong>Polly</strong>.</br>
+Telephony Server-Used: <strong>FreeSwitch</strong>.</p>
+
+<hr />
+
+<h3 id="database"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BVGs5eTBYQ21aZE0"><i class="fa fa-folder-open"></i> Database</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Databases of Polly2017, Sawaal2017, Baang2017, and Rahemma2017 in sql files are contained in this (Database) directory.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Description of Sql Files:</p>
+<p style="line-height: 15px;"></br></p>
+
+<table>
+<thead>
+<tr>
+<th>File &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BRVBuNXNLeUhxS0E"><i class="fa fa-align-justify"></i> baang-2017-06-30.sql</a></td>
+<td>Database of Baang, contain tables such as <em>userplayrectable</em> , <em>uservotesofrec</em> ,  <em>recording table</em> , <em>feedback table</em> ,  ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BLXVHbEJVU1c0SDg"><i class="fa fa-align-justify"></i> pquiz-2017-06-25.sql</a></td>
+<td>Data of Sawaal, tables such as <em>facts</em> , <em>questions</em> , <em>user answers</em> ,  <em>user likes</em>  ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BWnBTMENZVUUzbkE"><i class="fa fa-align-justify"></i> pollywa-2017-06-25.sql</a></td>
+<td>Data of Polly, tables such as <em>call table</em> , <em>request table</em> , <em>user table</em> , ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1MlkH5pGKxngo0G0vWsYi8kRVWgOVcGZ1"><i class="fa fa-align-justify"></i> raahemaa_test1-2017-03-01.sql</a></td>
+<td>Data of Rahemma Test 1, tables such as <em>feedback</em> , <em>files</em> , <em>log</em> , <em>prefrence</em></td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1g1OIS-97KAzXp0Xki7YYST_yvzZINr5F"><i class="fa fa-align-justify"></i> raahemaa_test2-2017-04-21.sql</a></td>
+<td>Data of Rahemma Test 2, tables such as <em>feedback</em> , <em>log</em> , <em>menu_log</em> , <em>quiz</em></td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1qHegST2pNdrf7U3VxkMpqgvCsgPS0JBF"><i class="fa fa-align-justify"></i> raahemaa_test3-2017-05-31.sql</a></td>
+<td>Data of Rahemma Test 3, tables such as <em>actions</em> , <em>calls</em> , <em>cost</em> , <em>doctor_tip</em>, ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=1aF5KEUK2hBfkeHAwG0W5RTp1K8yvK7km"><i class="fa fa-align-justify"></i> raahemaa_test4-2017-06-25.sql</a></td>
+<td>Data of Rahemma Test 4, tables such as <em>action</em> , <em>case_answer</em> , <em>logs</em> , <em>question</em>, ..</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BVVpZTEVCRFBieDg"><i class="fa fa-align-justify"></i> pollywasys-2017-06-30.sql</a></td>
+<td>Phone-number to encoded-key mapping data, <em>phkey table</em> , of users in deployed applications, Baang and Polly in 2016 launch.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>The <kbd>'2017-06-25'</kbd> sub-string in names of sql files represents the date <code>2017-06-25</code> on which the application launch is cluminated.  </p>
+</blockquote>
+<p style="line-height: 10px;"></br></p>
+
+<h3 id="htdocs"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BdkU0UkpBZTUwclk"><i class="fa fa-folder-open"></i> Htdocs</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Web root of HTTP server.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Description of important Folders, it contains:</p>
+<p style="line-height: 5px;"></br></p>
+
+<table>
+<thead>
+<tr>
+<th>Folder &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://58.27.220.110:201/gdrivre_int.html"><i class="fa fa-folder"></i> Baang</a></td>
+<td>Baang code scripts and recording data.</td>
+</tr>
+<tr>
+<td><a href="http://58.27.220.110:201/gdrivre_int.html"><i class="fa fa-folder"></i> BaangMonitor</a></td>
+<td>Baang monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BX2tvek5MVUJRNkE"><i class="fa fa-folder"></i> FS</a></td>
+<td>Seperate Master code scripts, <a href="https://drive.google.com/open?id=0B2rhATWIcB9BeGhNX1NaZmQ2Q0k"><i  class="fa fa-code"></i>APollyLHR.php</a>, <a href="https://drive.google.com/open?id=0B2rhATWIcB9BTU1qSnpRZDhuczA"><i  class="fa fa-code"></i>APQuizLHR.php</a>, <a href="https://drive.google.com/open?id=0B2rhATWIcB9BODZMSUtlbmFnUGM"><i  class="fa fa-code"></i>ABaangLHR.php</a>, <a href="https://drive.google.com/open?id=0B2rhATWIcB9BMHJoQVFNMElOZDA"><i  class="fa fa-code"></i>ARemLHR.php</a>, controls user's interaction in calls for deployed applications. It controls calls through Native communication with FreeSWITCH, over the event socket interface.</td>
+</tr>
+<tr>
+<td><a href="http://58.27.220.110:201/gdrivre_int.html"><i class="fa fa-folder"></i> Hellorozgar</a></td>
+<td>Hellorozgar monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BeEdlUHRqWXl5Qkk"><i class="fa fa-folder"></i> PollyMonitorWA</a></td>
+<td>Polly monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="http://58.27.220.110:201/gdrivre_int.html"><i class="fa fa-folder"></i> PQuiz</a></td>
+<td>Sawaal code scripts and recording data.</td>
+</tr>
+<tr>
+<td><a href="http://58.27.220.110:201/gdrivre_int.html"><i class="fa fa-folder"></i> PQuizMonitor</a></td>
+<td>Sawaal monitor scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BMWpiR20wM01WNlU"><i class="fa fa-folder"></i> REMT1</a></td>
+<td>Rahemaa Test 1 dashboard scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BMDVHTElxa0NUT1k"><i class="fa fa-folder"></i> REMT2</a></td>
+<td>Rahemaa Test 2 API and dashboard scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BYXQ0ZXprV3EtMDg"><i class="fa fa-folder"></i> REMT3</a></td>
+<td>Rahemaa Test 3 API and dashboard scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BZmxRX1dDSnZvSms"><i class="fa fa-folder"></i> REMT4</a></td>
+<td>Rahemaa Test 4 API and dashboard API and dashboard scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9Ba0oxQWpkcDU0S3c"><i class="fa fa-folder"></i> survey</a></td>
+<td>Survey, launched on polly, scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BNk9LTnc4elpKcms"><i class="fa fa-folder"></i> Survey_Audios</a></td>
+<td>Audios used in Survey.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9BT1pXLW9rMkx1ejg"><i class="fa fa-folder"></i> survey_new</a></td>
+<td>Survey, launched on polly and Baang, scripts.</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com/open?id=0B2rhATWIcB9Ba3Btb1FUV2xNTzg"><i class="fa fa-folder"></i> wa</a></td>
+<td>Audio-editing Praat scripts , Call-logs of all deployed applications <a href="https://drive.google.com/open?id=0B2rhATWIcB9BZ1NPeGtrZW4xQ00"><i class="fa fa-th-list"></i> Qlogs.rar</a>  , and Polly code scripts and recording data.</td>
+</tr>
+</tbody>
+</table>
+<p style="line-height: 10px;"></br></p>
+
+<h3 id="freeswitch"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BUWpBS1prdmwzNzg"><i class="fa fa-folder-open"></i> FreeSWITCH</a></h3>
+<p style="line-height: 15px;"></br></p>
+
+<p>Telephony server Root Directory.<br />
+It contains three sub-folder namely <strong>conf</strong>, <strong>scripts</strong> and <strong>logs</strong>. </p>
+<p style="line-height: 10px;"></br></p>
+
+<h4 id="conf"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BYmk3V1NHOGRwZVU"><i class="fa fa-folder-open"></i> conf</a></h4>
+<p style="line-height: 5px;"></br></p>
+
+<p>Configuration Files of FreeSWITCH. 
+Important config file/folders are: <strong>vars.xml</strong> , <strong>autoload_configs</strong> , <strong>dialplan</strong> and <strong>sip_profiles</strong>.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p><a href="https://drive.google.com/open?id=0B2rhATWIcB9BVjdUa1dYMF9DSWM"><i class="fa fa-file"></i> <code>vars.xml</code></a></p>
+<p>System wide variables. Default configurations such as default port and password of FreeSWITCH.<br />
+<strong><code>Default Password must be Changed</code></strong><br />
+The default password of FreeSWITCH is defined in:  </p>
+<pre><code>&lt;X-PRE-PROCESS cmd=&quot;set&quot; data=&quot;default_password=Conakry2014&quot;/&gt;
+</code></pre>
+
+<p style="line-height: 15px;"></br></p>
+
+<p><a href="https://drive.google.com/open?id=0B2rhATWIcB9BdlhJM1RaamZlOUE"><i class="fa fa-folder"></i> <code>autoload_configs</code> </a>  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Configuration files which loaded automatically into FreeSWITCH and contain configuration information for core modules.  </p>
+<p>Main config files used are: <a href="https://drive.google.com/open?id=0B2rhATWIcB9BbjA5OHA5NlRtZTQ"><i class="fa fa-file"></i> <strong><code>modules.conf.xml</code></strong></a> and <a href="https://drive.google.com/open?id=0B2rhATWIcB9BWUJKaHpGSHhGRFU"><i class="fa fa-file"></i> <strong><code>sofia.conf.xml</code></strong></a>.  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p><strong><em>modules.conf.xml</em></strong> tells FreeSWITCH which modules to load.  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p><strong><em>sofia.conf.xml</em></strong> contains a <code>"X-PRE-PROCESS"</code> directive that includes other XML files (within, by default, conf/sip_profiles/) that define one or more <code>"SIP Profiles"</code>.  </p>
+<p style="line-height: 15px;"></br></p>
+
+<p><a href="https://drive.google.com/open?id=0B2rhATWIcB9Ba1RpWHdlYnowa00"><i class="fa fa-folder"></i> <code>dialplan</code> </a>  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p>XML-based call-routing mechanism. It route dialed/received call to its appropriate endpoint, which is an extension specific to deployed IVR Application. Extensions invokes appropiate Lua script , for example on receiving call invokes IncomingHook.lua, in <i class="fa fa-folder"></i>scripts folder <code>FreeSwitch/scripts</code><br />
+public.xml:
+This contains configurations for handling calls coming in to FreeSWITCH.  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Dialplans configuration is mainly contained in two files: <a href="https://drive.google.com/open?id=0B2rhATWIcB9BdkNwM3ZwbmM0YWs"><i class="fa fa-file"></i><strong><code>default.xml</code></strong></a>  and <a href="https://drive.google.com/open?id=0B2rhATWIcB9BYVhIS29OeTFVWWc"><i class="fa fa-file"></i><strong><code>public.xml</code></strong></a> , representing default and public context for handling call requests.  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p><strong><em>default.xml</em></strong> primary FreeSWITCH Dialplan configuration. </p>
+<p style="line-height: 10px;"></br></p>
+
+<p><strong><em>public.xml</em></strong> contains configurations, extensions defined for deployed IVR Applications, for handling calls coming in to FreeSWITCH.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>As per default the contexts are called "Public" and "Default".<br />
+Everything in the public context is available to everyone, while everything in "default" context are only available to users that have registered with FreeSWITCH. You can define in the user profiles (in the directory) which context they belong to, and you can define the public context in the sofia configuration.</p>
+<p style="line-height: 15px;"></br></p>
+
+<p><a href="https://drive.google.com/open?id=0B2rhATWIcB9BTWJvLVdOU0xrbTQ"><i class="fa fa-folder"></i> <code>sip_profiles</code> </a>  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p>SIP Profiles allow you to define paths to devices or carriers that may live inside or outside your network. A SIP Profile is a SIP UA (User Agent or an endpoint), which communicates with other SIP endpoints.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Files of Sip Profiles used are: <a href="https://drive.google.com/open?id=0B2rhATWIcB9BQU9yTkhSNFp0d3c"><i class="fa fa-file"></i><strong><code>internal.xml</code></strong></a> and <a href="https://drive.google.com/open?id=0B2rhATWIcB9BeG82N3FrdU1YbFk"><i class="fa fa-file"></i><strong><code>external.xml</code></strong></a> , representing internal and external sip-profiles.  </p>
+<p style="line-height: 10px;"></br></p>
+
+<p><strong><em>internal.xml</em></strong> represent the Internal sip_profile, and is used to communicate with devices on local network.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p><strong><em>external.xml</em></strong> represent the External sip_profile, and is used to communicate with <code>wateen gateway</code>, service provider.</p>
+<p style="line-height: 10px;"></br></p>
+
+<h4 id="scripts"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BTllnNzdteGxnLUE"><i class="fa fa-folder-open"></i> scripts</a></h4>
+<p style="line-height: 5px;"></br></p>
+
+<p>Defined as default scripts directory. It contains Lua Scripts which enables IVR Applications ( Baang, Sawaal and Polly ) Master code script to handle incoming\outgoing calls.<br />
+Master code script hosted on local XAMP server.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>IVR Applications connects to the FreeSWITCH server on the port 8021 (TCP Socket Connection, pass= <kbd>'Conakry2014'</kbd>) and sends api commands invoking relevant lua scripts, which render and respond back appropiately to application. </p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Freeswitch extensions invoke lua scripts that in turn invoke the master code script, for event notification and call control intiation according to different IVR application. For example. FreeSWITCH notify Baang IVR application using <a href="https://drive.google.com/open?id=0B2rhATWIcB9BbGRkMlF6cmJ3RVU"><i  class="fa fa-code"></i>IncomingHook.lua</a>, when Baang User make an inbound call.</p>
+<p style="line-height: 10px;"></br></p>
+
+<p>Using Socket Connections, IVR Applications can <strong>:</strong>
+<p style="line-height: 10px;"></br></p></p>
+<blockquote>
+<ul>
+<li>check status  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BM1BiLWl5aXFqZTQ"><i  class="fa fa-code"></i> isActive.lua</a> </li>
+<li>make outbound calls, for Polly <a href="https://drive.google.com/open?id=0B2rhATWIcB9Bb1BtY3E4MjFSS1k"><i  class="fa fa-code"></i> call.lua</a> , for Baang <a href="https://drive.google.com/open?id=0B2rhATWIcB9BSnQ4YjIxUGFBV0E"><i  class="fa fa-code"></i>call_baang.lua</a> , for PQuiz <a href="https://drive.google.com/open?id=0B2rhATWIcB9BMU5wVzc4c0UzMU0"><i  class="fa fa-code"></i> call_pquiz.lua</a> , for Rahemaa <a href="https://drive.google.com/open?id=0B2rhATWIcB9BY3RlWjB2SC1UZFU"><i  class="fa fa-code"></i> call_rem.lua</a> </li>
+<li>answer incoming calls  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BX2x4d0tubzdCUnM"><i  class="fa fa-code"></i> answer.lua</a></li>
+<li>hang up a call  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BeU1saGp3SnFMZVE"><i class="fa fa-code"></i> hangup.lua</a></li>
+<li>reject a call  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BQVNzWlVEXzBtdkU"><i  class="fa fa-code"></i> reject.lua</a> </li>
+<li>record user voice  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BbXk0d1FnQlY2dUk"><i  class="fa fa-code"></i> record.lua</a></li>
+<li>play sound files  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BSWRUMThtazJ1aUk"><i  class="fa fa-code"></i> ask.lua</a> </li>
+<li>play with gather input  <a href="https://drive.google.com/open?id=0B2rhATWIcB9BeHRhYTJza3hLVUU"><i  class="fa fa-code"></i> askGather.lua</a>. </li>
+</ul>
+</blockquote>
+<p style="line-height: 10px;"></br></p>
+
+<h4 id="logs"><a href="https://drive.google.com/open?id=0B2rhATWIcB9BSENmSUdhSUdOYjQ"><i class="fa fa-folder-open"></i> logs</a></h4>
+<p style="line-height: 5px;"></br></p>
+
+<p><a href="https://drive.google.com/open?id=0B2rhATWIcB9Bc09pa3liZUJRMTA"><i class="fa fa-file"></i> cdr_logs.csv</a>
+ having Call Data Records (CDR) logs of calls like calls times and durations.</p>
+<p style="line-height: 5px;"></br></p>
+
+<p><br/>
+<hr></p>
+<script src="../js/raphael.js"></script>
+
+<script src="../js/Treant.js"></script>
+
+<script src="../js/perfect-scrollbar.js"></script>
+
+<script src="../js/jquery.min.js"></script>
+
+<script src="../js/jquery.easing.js"></script>
+
+<script src="../js/connectors.js"></script>
+
+<script>
+        tree = new Treant( chart_config );
+</script>
               
             </div>
           </div>
@@ -188,7 +418,7 @@
         <a href="../launch_2016/" class="btn btn-neutral float-right" title="2016 Launch">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../overall/" class="btn btn-neutral" title="General Info & Structure"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral" title="General Info & Structure"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -214,7 +444,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../overall/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../launch_2016/" style="color: #fcfcfc">Next &raquo;</a></span>
@@ -224,6 +454,12 @@
     <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
       <script src="../js/extra.js"></script>
+      <script src="../js/connectors.js"></script>
+      <script src="../js/jquery.easing.js"></script>
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/perfect-scrollbar.js"></script>
+      <script src="../js/raphael.js"></script>
+      <script src="../js/treant.js"></script>
       <script src="../search/require.js"></script>
       <script src="../search/search.js"></script>
 

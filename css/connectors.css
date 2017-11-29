@@ -1,13 +1,39 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td { margin:0; padding:0; }
 
 
 body { background: #fcfcfc; font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif; color: #444444; }
 
 
 /* optional Container STYLES */
-.chart { height: 250px; width: 820px; margin: 5px; margin: 15px auto; border: 3px solid #DDD; border-radius: 3px; }
+.chart { height: 230px; width: 820px; margin: 5px; margin: 15px auto; border: 3px solid #DDD; border-radius: 3px; }
 
 a {text-decoration: none;}
+
+.ends{
+
+    width: 199px;
+    height: 282px;
+    background: rgb(255, 255, 222) ;
+    border: 1px solid #aaaa33; border-radius: 3px;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+}
+blockquote{
+
+    border-left-width: 10px;
+    background-color: #f6f3f3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px 20px;
+    margin: 0 0 1.1em;
+    box-sizing: border-box;
+    border-left: 10px solid #dfdfdf;
+    font-size: 15px;
+    line-height: 1.45;
+    color: #000;
+
+}
 
 .comments { width: 427px;}
 .comments ul { margin-left: 35px; list-style: none; }
@@ -50,3 +76,5 @@ a {text-decoration: none;}
 }
 
 .Treant .comment { margin: 0; padding: 3px; border: 1px solid #ddd; border-radius: 3px; }
+
+
